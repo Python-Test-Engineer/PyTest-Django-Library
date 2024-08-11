@@ -142,9 +142,10 @@ def pytest_runtest_makereport(item: Item, call: CallInfo):
             test_nodeid = item.nodeid
             # bdd tests have a different format
             if "bdd" in test_nodeid:
-                test_id = item.name.split("_")[2]
+                test_code = item.name.split("_")[2]
             else:
-                test_id = item.name.split("_")[1]
+                test_code = item.name.split("_")[1]
+                test_id = item.name.split("_")[2]
 
             # markers and keywords - see KEYWORDS.md
             # we will get all the markers for each test
@@ -182,7 +183,7 @@ def pytest_runtest_makereport(item: Item, call: CallInfo):
                     outcome = outcome
 
                 f.write(
-                    f"{test_id}|{item.name}|{test_nodeid}|{outcome}|{test_duration}|{all_markers}\n"
+                    f"{test_code}|{test_id}|{item.name}|{test_nodeid}|{outcome}|{test_duration}|{all_markers}\n"
                 )
 
         except Exception as e:
