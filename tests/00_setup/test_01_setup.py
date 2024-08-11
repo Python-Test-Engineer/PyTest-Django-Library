@@ -31,7 +31,7 @@ def test_GEN_002_log_info():
 
 def test_GEN_003_log_warn():
     """testing log warn"""
-    LOGGER.warn("testing log warn")
+    LOGGER.warning("testing log warn")
     assert 1
 
 
