@@ -3,7 +3,21 @@
     padding: 0;
     list-style: none;
 }
-
+.sidebar-nav > li {
+    line-height: 30px;
+    text-indent: 20px;
+    font-weight: 500;
+}
+.sidebar-nav > li > a {
+    display: block;
+    text-decoration: none;
+    color: #161515;
+}
+.sidebar-nav > li > a:hover {
+    text-decoration: none;
+    color: #f14b2a;
+    background: rgba(255, 255, 255, 0.2);
+} 
 #logout-form {
   display: inline;
 }
