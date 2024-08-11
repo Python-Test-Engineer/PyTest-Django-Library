@@ -1,3 +1,8 @@
+results/** 
+log/
+
+# STANDARD .gitignore
+
 # Text backup files
 *.bak
 
