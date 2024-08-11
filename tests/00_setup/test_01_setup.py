@@ -10,6 +10,11 @@ LOGGER = logging.getLogger(__name__)
 console = Console()
 
 
+def test_GEN_000_init_works():
+    console.print("\n[cyan bold]This is test init[/]")
+    assert True
+
+
 def test_GEN_001_get_version():
     """Test get_version returns correct version"""
     version = get_version()

@@ -1,6 +1,0 @@
-GEN|test_GEN_001_get_version|tests/00_setup/test_01_setup.py::test_GEN_001_get_version|PASSED|0.00313|
-GEN|test_GEN_002_log_info|tests/00_setup/test_01_setup.py::test_GEN_002_log_info|PASSED|8.8e-05|
-GEN|test_GEN_003_log_warn|tests/00_setup/test_01_setup.py::test_GEN_003_log_warn|PASSED|0.000553|
-GEN|test_GEN_004_log_critical|tests/00_setup/test_01_setup.py::test_GEN_004_log_critical|PASSED|0.000323|
-init|test_init_works|tests/00_setup/test_init.py::test_init_works|PASSED|0.001087|
-init2|test_init2_works|tests/00_setup/test_init.py::test_init2_works|PASSED|0.00109|
