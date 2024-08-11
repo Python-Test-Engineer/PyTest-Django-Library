@@ -53,7 +53,7 @@ Bootstrap CDN is used for styling and was included by MDN.
 
 Example use: 
 ```
-# scripts/delete_all_questions.py
+# scripts/delete_all_books.py
 
 from catalog.models import Book
 
@@ -64,4 +64,4 @@ def run():
     questions.delete()
 ```
 
-`python manage.py runscript delete_all_questions`
+`python manage.py runscript delete_all_books`
