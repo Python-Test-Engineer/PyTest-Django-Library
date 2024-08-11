@@ -34,6 +34,12 @@ To get this project up and running locally on your computer:
    python3 manage.py createsuperuser # Create a superuser
    python3 manage.py runserver
    ```
-1. Open a browser to `http://127.0.0.1:8000/admin/` to open the admin site
-1. Create a few test objects of each type.
-1. Open tab to `http://127.0.0.1:8000` to see the main site, with your new objects.
+- Open a browser to `http://127.0.0.1:8000/admin/` to open the admin site
+- Create a few test objects of each type.
+- Open tab to `http://127.0.0.1:8000` to see the main site, with your new objects.
+- login is `admin` and password is `password@2024`.
+## Styling
+
+Bootstrap CDN is used for styling and was included by MDN.
+
+`catalog\static\css\styles.css` has custom styling.
