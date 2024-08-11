@@ -4,6 +4,8 @@ Tutorial "Local Library" website written in Django.
 
 For detailed information about this project see the associated [MDN tutorial home page](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website).
 
+Repo: [https://github.com/mdn/django-locallibrary-tutorial](https://github.com/mdn/django-locallibrary-tutorial)
+
 ## Overview
 
 This web application creates an online catalog for a small local library, where users can browse available books and manage their accounts.
@@ -21,10 +23,10 @@ The main features that have currently been implemented are:
 ## Quick Start
 
 To get this project up and running locally on your computer:
-1. Set up the [Python development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment).
+- Set up the [Python development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment).
    We recommend using a Python virtual environment.
    > **Note:** This has been tested against Django 3.10 (and may not work or be "optimal" for other versions).
-1. Assuming you have Python setup, run the following commands (if you're on Windows you may use `py` or `py -3` instead of `python` to start Python):
+- Assuming you have Python setup, run the following commands (if you're on Windows you may use `py` or `py -3` instead of `python` to start Python):
    ```
    pip3 install -r requirements.txt
    python3 manage.py makemigrations
@@ -38,7 +40,7 @@ To get this project up and running locally on your computer:
 - Create a few test objects of each type.
 - Open tab to `http://127.0.0.1:8000` to see the main site, with your new objects.
 - login is `admin` and password is `password@2024`.
-- 
+  
 ## Styling
 
 Bootstrap CDN is used for styling and was included by MDN.
