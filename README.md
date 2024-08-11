@@ -38,8 +38,29 @@ To get this project up and running locally on your computer:
 - Create a few test objects of each type.
 - Open tab to `http://127.0.0.1:8000` to see the main site, with your new objects.
 - login is `admin` and password is `password@2024`.
+- 
 ## Styling
 
 Bootstrap CDN is used for styling and was included by MDN.
 
 `catalog\static\css\styles.css` has custom styling.
+
+## Additions
+
+`pip install django-extensions` and add `scripts` folder in project root.
+
+
+Example use: 
+```
+# scripts/delete_all_questions.py
+
+from catalog.models import Book
+
+def run():
+    # Fetch all books
+    books = Book.objects.all()
+    # Delete books
+    questions.delete()
+```
+
+`python manage.py runscript delete_all_questions`
