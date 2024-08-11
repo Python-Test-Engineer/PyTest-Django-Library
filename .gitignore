@@ -1,5 +1,5 @@
-!results/
-results/*
+/results/** 
+!**/.gitkeep
 log/
 
 # STANDARD .gitignore
