@@ -1,3 +1,19 @@
+li {
+  list-style-type: none;
+
+  }
+a{
+  color: #314bde;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+a:hover {
+  color: #cb553e;
+  text-decoration: underline;
+}
+
+
 .sidebar-nav {
     margin-top: 20px;
     padding: 0;
@@ -14,7 +30,7 @@
     color: #161515;
 }
 .sidebar-nav > li > a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #f14b2a;
     background: rgba(255, 255, 255, 0.2);
 } 
