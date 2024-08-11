@@ -47,7 +47,8 @@ Bootstrap CDN is used for styling and was included by MDN.
 
 ## Additions
 
-`pip install django-extensions` and add `scripts` folder in project root.
+- `pip install rich pyboxen` for console formatting.
+- `pip install django-extensions` and add `scripts` folder in project root.
 
 
 Example use: 
